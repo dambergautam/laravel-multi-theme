@@ -5,7 +5,8 @@
 #-------------------------------------------------------------------------------
 
 # Laravel project 
-docker/laravel
+docker/laravel/vendor
+docker/laravel/node_modules
 
 # Container data
 docker/logs 
