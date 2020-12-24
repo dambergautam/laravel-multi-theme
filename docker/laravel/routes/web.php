@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/anypath', function() {
+    Theme::init('jivan');
+    return View::make('hello');
+});
