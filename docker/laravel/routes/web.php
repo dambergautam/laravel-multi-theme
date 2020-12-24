@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/anypath', function() {
-    Theme::init('jivan');
+    // Theme::init('jivan');
     return View::make('hello');
+    // return view('welcome');
 });
