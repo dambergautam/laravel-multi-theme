@@ -9,7 +9,7 @@ docker-compose down
 # OPTION 1
 # -------------------- #
 # Download laravel LTS framework (https://github.com/laravel/laravel/releases)
-LARAVEL_VERSION_NO="5.5.28"
+LARAVEL_VERSION_NO="6.0.0"
 curl -L https://github.com/laravel/laravel/archive/v${LARAVEL_VERSION_NO}.tar.gz | tar xz
 mv laravel-${LARAVEL_VERSION_NO} docker/laravel
 cp docker/laravel/.env.example docker/laravel/.env
